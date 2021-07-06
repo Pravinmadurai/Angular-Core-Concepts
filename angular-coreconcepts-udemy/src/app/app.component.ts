@@ -9,5 +9,9 @@ export class AppComponent {
   title = 'angular-coreconcepts-udemy';
   data = {
     title : 'angular-coreconcepts-udemy'
+  };
+
+  onKeyUp(title: any): void{
+   this.data.title = title;
   }
 }

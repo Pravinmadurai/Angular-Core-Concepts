@@ -1,4 +1,6 @@
-<router-outlet></router-outlet>
+
 
 <h1> Welcome to {{data.title}}</h1>
 <input class="demo" (keyup)="onKeyUp(inputTitle.value)" [value]="data.title" #inputTitle>
+<app-course-card [title]="data.title"></app-course-card>
+<router-outlet></router-outlet>

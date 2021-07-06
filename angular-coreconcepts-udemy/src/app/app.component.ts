@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-coreconcepts-udemy';
+  data = {
+    title : 'angular-coreconcepts-udemy'
+  }
 }
